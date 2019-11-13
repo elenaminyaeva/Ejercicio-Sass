@@ -1,0 +1,17 @@
+{
+  "name": "elenaminyaeva",
+  "homepage": "https://github.com/elenaminyaeva/Ejercicio-Sass",
+  "authors": [
+    "elenaminyaeva <alu0101251981@ull.edu.es>"
+  ],
+  "description": "root",
+  "main": "main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

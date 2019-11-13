@@ -1,0 +1,97 @@
+@import "mixin.scss";
+
+$margin: 0 auto;
+$border: 1px solid black;
+$width: 600px;
+$border-collapse: separate;
+$border-spacing: 5px 5px;
+
+$padding: 10px 15px;
+$max-width: 100%;
+
+html {
+@include large-text;
+}
+
+$color: #08088A;
+
+h1 {
+color: $color;
+}
+
+object {
+max-width: $max-width;
+}
+
+table {
+margin: $margin;
+border: $border;
+width: $width;
+border-collapse: $border-collapse;
+border-spacing: $border-spacing;
+}
+
+th {
+padding: $padding;
+border: $border;
+background: $background;
+}
+
+$background: #b9c9fe;
+$text-align: center;
+
+td {
+padding: $padding;
+border: $border;
+background: $background;
+text-align: $text-align;
+}
+
+$font-weight: bold;
+$font-size: 24px;
+
+.text {
+font-weight: $font-weight;
+font-size: $font-size;
+}
+
+$background: #D0A9F5;
+
+.class1 {
+@include button-bg;
+background: $background;
+}
+
+$background: #F5A9F2;
+
+.class2 {
+@include button-bg;
+background: $background;
+}
+
+$background: #CED8F6;
+
+.class3 {
+@include button-bg;
+background: $background;
+}
+
+$background: #F2F5A9;
+
+.class4 {
+@include button-bg;
+background: $background;
+}
+
+$background: #F8E0E6;
+
+.class5 {
+@include button-bg;
+background: $background;
+}
+
+$font-family: times;
+
+.header {
+font-family: $font-family;
+}

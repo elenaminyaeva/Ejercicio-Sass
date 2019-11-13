@@ -1,0 +1,12 @@
+var gulp = require('gulp');
+var browserSync = require('browser-sync').create();
+var minifyCss = require('gulp-minify-css');
+var sourcesmaps = require(‘gulp-sourcesmaps’)
+gulp.task('styles', function(){
+gulp.src(['src/styles/**/*.css']).
+.pipe(sourcesmaps.init())
+.pipe(minifyCss())
+.pipe(sourcesmaps.write())
+.pipe(gulp.dest.('dist/styles'))
+.pipe(browserSync.stream());
+});

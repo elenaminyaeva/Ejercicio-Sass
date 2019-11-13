@@ -1,0 +1,81 @@
+html {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #380B61; }
+
+h1 {
+  font-color: #08088A; }
+
+object {
+  max-width: 100%; }
+
+table {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 600px;
+  border-collapse: separate;
+  border-spacing: 5px 5px; }
+
+th {
+  padding: 10px 15px;
+  border: 1px solid black;
+  background: #D0A9F5; }
+
+td {
+  padding: 10px 15px;
+  border: 1px solid black;
+  background: #b9c9fe;
+  text-align: center; }
+
+.text {
+  font-weight: bold;
+  font-size: 24px; }
+
+.class1 {
+  background: #D0A9F5;
+  background: #D0A9F5; }
+  .class1:hover {
+    background: #bc84f1;
+    transition: all 0.3s ease; }
+  .class1:active {
+    background: #7819d3; }
+
+.class2 {
+  background: #F5A9F2;
+  background: #F5A9F2; }
+  .class2:hover {
+    background: #f184ec;
+    transition: all 0.3s ease; }
+  .class2:active {
+    background: #d319cc; }
+
+.class3 {
+  background: #CED8F6;
+  background: #CED8F6; }
+  .class3:hover {
+    background: #acbdf0;
+    transition: all 0.3s ease; }
+  .class3:active {
+    background: #3760da; }
+
+.class4 {
+  background: #F2F5A9;
+  background: #F2F5A9; }
+  .class4:hover {
+    background: #ecf184;
+    transition: all 0.3s ease; }
+  .class4:active {
+    background: #ccd319; }
+
+.class5 {
+  background: #F8E0E6;
+  background: #F8E0E6; }
+  .class5:hover {
+    background: #f0bfcb;
+    transition: all 0.3s ease; }
+  .class5:active {
+    background: #d74e71; }
+
+.header {
+  font-family: times; }
